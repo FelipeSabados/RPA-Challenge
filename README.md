@@ -10,7 +10,7 @@
 1. **INITIALIZE PROCESS**
  + ./Framework/*InitiAllSettings* - Load configuration data from Config.xlsx file and from assets
  + ./Framework/*Dispatcher* - Open chrome in the rpachallenge link, download the excel with client data and feed the orchestrator queue called RPAChallenge
- + ./Framework/*InitiAllApplications* - Open Chrome with rpachalleng link on private mode and click in start
+ + ./Framework/*InitiAllApplications* - Open Chrome with rpachallenge link on private mode and click in start
 
 2. **GET TRANSACTION DATA**
  + ./Framework/*GetTransactionData* - Fetches transactions from an Orchestrator queue defined by Config("OrchestratorQueueName") or any other configured data source
